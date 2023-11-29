@@ -1,0 +1,5 @@
+# ninja log v5
+1	3771	7229826537023763	CMakeFiles/collatz_conjecture.dir/main.cpp.obj	f35d728bd2f8e4a0
+3781	4371	7229826542904810	collatz_conjecture.exe	f42e0476f7137c96
+67	1180	7229826839748647	CMakeFiles/collatz_conjecture.dir/main.cpp.obj	f35d728bd2f8e4a0
+1181	1378	7229826841714081	collatz_conjecture.exe	f42e0476f7137c96
