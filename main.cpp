@@ -4,23 +4,26 @@ using namespace std;
 
 int main () {
 
-    int n = 1;
-
-    cout << "original value: " << n << endl;
+    int n;
+    cout << "input n" << endl;
+    cin >> n;
 
     for ( ; ; ) {
 
-        if (n % 2 == 0) {
-            n / 2;
-        } else {
-            n * 2 + 1;
-        }
+        int num = n;
 
-        cout << "current value: " << n << endl;
-
-        if (n == 1)
+        if (num == 1)
             n++;
 
-        cout << "n = " << n << endl;
+        if (num % 2 == 0) {
+            num / 2;
+            cout << "n = " << num << endl;
+        } else if (num % 2 != 0) {
+            (num * 2) + 1;
+            cout << "num = " << num << endl;
+        } else;
+
     }
 }
+
+
