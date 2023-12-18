@@ -2,28 +2,35 @@
 
 using namespace std;
 
+int collatz (int n);
+
 int main () {
 
     int n;
     cout << "input n" << endl;
     cin >> n;
 
-    for ( ; ; ) {
-
-        int num = n;
-
-        if (num == 1)
-            n++;
-
-        if (num % 2 == 0) {
-            num / 2;
-            cout << "n = " << num << endl;
-        } else if (num % 2 != 0) {
-            (num * 2) + 1;
-            cout << "num = " << num << endl;
-        } else;
-
+    int x = 1;
+    while (x != 10) {
+        cout << "original value of current loop " << n << endl;
+        x++;
     }
+    cout << "current n = " << collatz(n) << endl;
+
+    
 }
 
+
+int collatz (int n) {
+
+    while (n != 1) {
+
+        if (n % 2 == 0) {
+            int n = n / 2;
+        } else {
+            int n = (n * 3) + 1;
+        }
+    }
+    return n;
+}
 
